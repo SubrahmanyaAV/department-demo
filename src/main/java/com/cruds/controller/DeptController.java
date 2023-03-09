@@ -17,6 +17,13 @@ public class DeptController {
 	@Autowired
 	private DepartmentService deptService;
 	
+	@RequestMapping(value="home.html")
+	public String showHomePage()
+	{
+		return "home";
+	}
+
+	
 	@RequestMapping(value="department.html" ,method=RequestMethod.GET)
 	public String showForm(Model model)
 	{

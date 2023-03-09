@@ -15,6 +15,8 @@
 		<c:out value="${param.ERROR_MSG }"  />
 	</c:if>
 	
+	
+	
 	<form action="login.html" method="post">
 		<label>User Id</label>
 		<input type="text" name="userId"><br/>

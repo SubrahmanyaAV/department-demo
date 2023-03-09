@@ -7,7 +7,7 @@ import com.cruds.entity.Department;
 public interface DepartmentDAO {
 	
 	public void create(Department d); 
-	
+
 	public List<Department> getAll();
 	
 	public void delete(int deptId);

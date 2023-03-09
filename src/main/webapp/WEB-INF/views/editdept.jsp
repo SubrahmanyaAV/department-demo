@@ -10,6 +10,9 @@
 </head>
 <body>
 
+
+<a href="home.html">Home</a><br>
+
 	<h1>Edit Department</h1>
 
 	<form:form action="editDept.html" method="post">
